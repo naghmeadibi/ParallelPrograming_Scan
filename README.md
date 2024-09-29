@@ -1,5 +1,3 @@
 # ParallelPrograming_Scan
 This project implements a CUDA-based solution for the SCAN problem using Galois fields, specifically designed to efficiently process vectors and matrices in a parallel computing environment. The core functionality revolves around performing operations on vectors of size $$2^{mm}$$ where each element belongs to the Galois Field $$GF(2^8)$$. The program computes output vectors based on matrix multiplications defined by the Galois field arithmetic, utilizing optimized GPU kernels to enhance performance. The repository includes the necessary CUDA source files, build instructions, and execution guidelines, ensuring that users can compile and run the code seamlessly. This project not only showcases the application of parallel programming techniques but also emphasizes the importance of correctness and speed in computational algorithms.
 
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/2691086/0b7b5a62-111e-4785-9528-b1d85ed4eb03/cuda_scan.pdf
